@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
+
+:root {
+    --primary-color: #f87171;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    font-size: x-large
+}
+
+/*----------Textbox-----------*/
+
+textarea {
+    width: 80%;
+    height: 20vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+    border: 1px solid white;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+/*----------Header-----------*/
+
+.hero {
+    padding-top: 0;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.hero .hero-img {
+    width: 80px;
+    display: inline-block;
+    margin-left: 40px;
+    color: white;
+}
+
+.hero .hero-heading {
+    color: rgb(71, 71, 71);
+    text-align: center;
+}
+
+/*----------Container-----------*/
+
+.container {
+    padding: 2rem 1rem;
+    background-color: #881337;
+    border-radius: 1rem;
+}
+
+.container-centre {
+    max-width: 600px;
+    margin: auto;
+}
+
+.section {
+    padding: 2rem;
+    background-color: #fecdd3;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+/*----------Button-----------*/
+
+#btn-translate {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+    border: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+}
+
+/*----------Footer-----------*/
+
+.footer {
+    background-color: var(--primary-color);
+    padding-top: 2rem;
+    text-align: center;
+    color: black;
+}
+
+.footer .footer-header {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.footer-para {
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
